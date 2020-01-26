@@ -1,46 +1,57 @@
+body, html {
+    background-image: linear-gradient(to right, rgb(34, 90, 194) , #88a4e0);
+    background-color:rgba(84, 85, 87, 0.425);    
+    font-family: Sorts Mill Goudy;  
+}
 
-  /* div {
-    padding-top: 50px;
-    padding-right: 30px;
-    padding-bottom: 50px;
-    padding-left: 80px;
-  } */
-  
-  body, html {
-    height: 100%;
-    padding-top: 50px;
-    padding-right: 30px;
-    padding-bottom: 50px;
-    padding-left: 80px;
-    background-image: linear-gradient(to right, rgb(90, 86, 86) , rgb(241, 241, 237));
-    /* background-position: center; */
-    /* background-repeat: repeat; */
-    /* background-size: cover; */
-    background-color: rgba(7, 2, 20, 0.973);
-  }
-  
-  
-  p, html {
-    color: beige;
-    font-family: Sorts Mill Goudy;
-    text-align: center;
-    font-size: large;
-    font-style: normal;
-  }
+h1 {
+    font-style: italic;  
+}
 
-  .header {
-    color: beige;
-    font-family: Sorts Mill Goudy;
-    text-align: center;
-    font-size:  xx-large;
-    font-style: oblique;
-  }
+.display-2 {
+    color: white;
+}
 
-  .div1 {
-    width: 300px;
-    height: 100px;
-    border: 1px solid blue; 
-  }
-  /* #grad {
-    background-image: linear-gradient(to bottom right, red, yellow);
-  } */
+.display-4 {
+    color: white;
+}
+
+.lead {
+    color: white;
+    text-shadow:
+		-1px -1px 0 rgba(13, 13, 32, 0.76),
+		1px -1px 0 rgba(13, 13, 32, 0.76),
+		-1px 1px 0 rgba(13, 13, 32, 0.76),
+		1px 1px 0 rgba(13, 13, 32, 0.76);
+}
+
+.jumbotron {
+    height: 35rem;
+    background-image: url("/static/images/Atlanta\ Image.jpg");
+    background-size: cover;
+    background-position: center;
+    background-color: transparent;
+    padding-right: 50px;
+    padding-left: 50px;
+    padding-top: 200px;
+    
+}
+
+h1, .jumbotron {
+    color: white;
+    font-size: 25px;
+   
+}
+
+h2, .jumbotron {
+    color: white;
+    font-size: 20px;
+    font-style: italic;
+    text-shadow:
+		-1px -1px 0 rgba(13, 13, 32, 0.76),
+		1px -1px 0 rgba(13, 13, 32, 0.76),
+		-1px 1px 0 rgba(13, 13, 32, 0.76),
+		1px 1px 0 rgba(13, 13, 32, 0.76);
+    /* background-color: rgba(13, 13, 32, 0.76); */
+}
+
