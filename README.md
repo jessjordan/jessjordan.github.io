@@ -1,11 +1,11 @@
-# JESS  THE TECHNOLOGIST 
+# _JESS THE TECHNOLOGIST_
 
-### Who am I? 
+### _Who am I?_ 
 
 I am a self-motivated professional who is excited about using data and technology to enhance the world around us.
 
 
-### Tell Me About Yourself
+### _Tell Me About Yourself_
 
 I am an Atlanta based Technologist. With a self-motivated passion for innovation and technology - I have practiced and obtained unique and valuable skillsets. Such as: 
 
@@ -14,6 +14,7 @@ I am an Atlanta based Technologist. With a self-motivated passion for innovation
             * HTML
             * CSS
             * JavaScript 
+            
 The foundation of my capabilites began with self-teachings. 
 
    ![alt text](https://image.shutterstock.com/image-photo/blured-text-focus-on-selftaught-260nw-159374465.jpg) ![superwoman](https://cdn2.iconfinder.com/data/icons/design-development-services/128/14-512.png)
