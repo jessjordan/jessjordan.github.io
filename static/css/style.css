@@ -31,14 +31,14 @@ h1 {
 }
 
 .jumbotron {
-    height: 35rem;
+    height: 20rem;
     background-image: url("/static/images/Atlanta\ Image.jpg");
     background-size: cover;
     background-position: center;
     background-color: transparent;
-    padding-right: 50px;
+    /* padding-right: 50px;
     padding-left: 50px;
-    padding-top: 200px;
+    padding-top: 200px; */
     
 }
 
