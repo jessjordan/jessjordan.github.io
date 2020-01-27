@@ -10,7 +10,6 @@
     <title>Jessica's Portfolio</title>
 </head>
 <body>
-
   <nav class="navbar navbar-light bg-light">
     <a class="navbar-brand" href="./index.html">
       <!-- <img src="/docs/4.3/assets/brand/bootstrap-solid.svg" width="30" height="30" class="d-inline-block align-top" alt=""> -->
@@ -18,13 +17,13 @@
     </a>
     <ul class="nav justify-content-end">
       <li class="nav-item">
-        <a class="nav-link active" href="#">Projects</a>
+        <a class="nav-link active" href="./static/pages/projects.html">Projects</a>
       </li>
       <li class="nav-item">
         <a class="nav-link" href="./static/pages/resume.html" tabindex="-1" target="_blank">Resume</a>
       </li>
       <li class="nav-item">
-        <a class="nav-link" href="#">About</a>
+        <a class="nav-link" href="./static/pages/about.html">About</a>
       </li>
       <li class="nav-item">
         <a class="nav-link " href="./static/pages/contact.html" tabindex="-1" target="_blank">Contact</a>
@@ -41,7 +40,7 @@
         </nav>
         <a class="btn btn-outline-primary" href="./static/pages/contact.html" target="_blank">Contact</a>
       </div>     -->
-    
+
       <div class="profile-header px-3 py-3 pt-md-5 pb-md-4 mx-auto text-center" id="hea">
         <h1 class="display-2" style="text-shadow:
         -1px -1px 0 rgba(13, 13, 32, 0.76),
@@ -120,7 +119,7 @@
         <footer class="pt-4 my-md-5 pt-md-5 border-top">
           <div class="row" style="text-align: center;"> 
             <div class="col-6 col-md">
-              <h5>Projects</h5>
+             <a href="./static/pages/projects.html" style="color: whitesmoke;"> <h5>Projects</h5></a>
               <!-- <ul class="list-unstyled text-small">
                 <li><a class="text-muted" href="#">Cool stuff</a></li>
                 <li><a class="text-muted" href="#">Random feature</a></li>
@@ -131,11 +130,11 @@
               </ul>
             </div>
             <div class="col-6 col-md">
-              <h5>References</h5>
+              <a onclick="ref()" style="color: whitesmoke;"> <h5 >References</h5></a>
               
             </div>
             <div class="col-6 col-md">
-              <h5>About</h5>
+                <a href="./static/pages/about.html" style="color: whitesmoke;"> <h5>About</h5></a>
               <!-- <ul class="list-unstyled text-small">
                 <li><a class="text-muted" href="#">Team</a></li>
                 <li><a class="text-muted" href="#">Locations</a></li>
@@ -155,6 +154,6 @@
                 <medium class="d-block mb-3 text-muted" style="text-align: center;">© Jessica Jordan 2020 - All Rights Reserved.</small>
               </div>
         </footer>
-     
+   <script src="./static/js/app.js"></script>  
 </body>
 </html>
