@@ -5,4 +5,10 @@
     margin-right: 4%;
   }
 
- 
+ body {
+    background-image: url("/static/images/casey-horner-20VGfqwDeEQ-unsplash.jpg");
+ }
+
+ footer {
+    color: whitesmoke;
+}
