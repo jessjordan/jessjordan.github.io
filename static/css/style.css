@@ -1,7 +1,12 @@
 body, html {
-    background-image: linear-gradient(to right, rgb(34, 90, 194) , #88a4e0);
+    /* background-image: linear-gradient(to right, rgb(34, 90, 194) , #88a4e0); */
     background-color:rgba(84, 85, 87, 0.425);    
-    font-family: Sorts Mill Goudy;  
+    font-family: Sorts Mill Goudy; 
+    overflow: scroll; 
+    /* background-image: url(""); */
+    background-size: cover;
+    background-repeat: no-repeat;
+
 }
 
 h1 {
