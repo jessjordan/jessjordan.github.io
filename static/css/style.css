@@ -1,12 +1,20 @@
-body, html {
+body,
+html {
     /* background-image: linear-gradient(to right, rgb(34, 90, 194) , #88a4e0); */
     /* background-color:rgba(84, 85, 87, 0.425);     */
-    font-family: Sorts Mill Goudy; 
-    overflow: scroll; 
+    font-family: Sorts Mill Goudy;
+    overflow: scroll;
     /* background-image: url("/static/images/casey-horner-20VGfqwDeEQ-unsplash.jpg"); */
     background-size: cover;
     background-repeat: no-repeat;
     background-color: black;
+}
+
+.nav-link {
+  color: rgb(233, 133, 67);
+  font-size: larger;
+  outline-style: dotted;
+  outline-color: rgb(75, 68, 68);
 
 }
 
@@ -15,7 +23,11 @@ body, html {
 }
 
 h1 {
-    font-style: italic;  
+    font-style: italic;
+}
+
+img {
+    height: 178px;
 }
 
 #foo {
@@ -33,11 +45,7 @@ h1 {
 
 .lead {
     color: white;
-    text-shadow:
-		-1px -1px 0 rgba(13, 13, 32, 0.76),
-		1px -1px 0 rgba(13, 13, 32, 0.76),
-		-1px 1px 0 rgba(13, 13, 32, 0.76),
-		1px 1px 0 rgba(13, 13, 32, 0.76);
+    text-shadow: -1px -1px 0 rgba(13, 13, 32, 0.76), 1px -1px 0 rgba(13, 13, 32, 0.76), -1px 1px 0 rgba(13, 13, 32, 0.76), 1px 1px 0 rgba(13, 13, 32, 0.76);
 }
 
 .jumbotron {
@@ -49,30 +57,27 @@ h1 {
     /* padding-right: 50px;
     padding-left: 50px;
     padding-top: 200px; */
-    
 }
 
-h1, .jumbotron {
+h1,
+.jumbotron {
     color: white;
     font-size: 25px;
-   
 }
 
-h2, .jumbotron {
+h2,
+.jumbotron {
     color: white;
     font-size: 20px;
     font-style: italic;
-    text-shadow:
-		-1px -1px 0 rgba(13, 13, 32, 0.76),
-		1px -1px 0 rgba(13, 13, 32, 0.76),
-		-1px 1px 0 rgba(13, 13, 32, 0.76),
-		1px 1px 0 rgba(13, 13, 32, 0.76);
+    text-shadow: -1px -1px 0 rgba(13, 13, 32, 0.76), 1px -1px 0 rgba(13, 13, 32, 0.76), -1px 1px 0 rgba(13, 13, 32, 0.76), 1px 1px 0 rgba(13, 13, 32, 0.76);
     /* background-color: rgba(13, 13, 32, 0.76); */
 }
 
 footer {
     color: whitesmoke;
 }
+
 #cPage {
     margin-top: 10rem;
 }
@@ -81,47 +86,75 @@ footer {
     background-color: black;
 }
 
+
 /* Sticky Footer */
 
-html, body {
+html,
+body {
     height: 100%;
     margin: 0;
-  }
-  .wrapper {
+}
+
+.wrapper {
     min-height: 100%;
-  
     /* Equal to height of footer */
     /* But also accounting for potential margin-bottom of last child */
     margin-bottom: -50px;
-  }
-  .footer,
-  .push {
-    height: 50px;
-  }
+}
 
-  .responsive {
+.footer,
+.push {
+    height: 50px;
+}
+
+.responsive {
     width: 100%;
     height: auto;
-  }
+}
 
-  img:hover {
+#js {
+    align-content: center!;
+}
+
+img:hover {
     /* Start the shake animation and make the animation last for 0.5 seconds */
     animation: shake 0.5s;
-  
     /* When the animation is finished, start again */
     animation-iteration-count: infinite;
-  }
-  
-  @keyframes shake {
-    0% { transform: translate(1px, 1px) rotate(0deg); }
-    10% { transform: translate(-1px, -2px) rotate(-1deg); }
-    20% { transform: translate(-3px, 0px) rotate(1deg); }
-    30% { transform: translate(3px, 2px) rotate(0deg); }
-    40% { transform: translate(1px, -1px) rotate(1deg); }
-    50% { transform: translate(-1px, 2px) rotate(-1deg); }
-    60% { transform: translate(-3px, 1px) rotate(0deg); }
-    70% { transform: translate(3px, 1px) rotate(-1deg); }
-    80% { transform: translate(-1px, -1px) rotate(1deg); }
-    90% { transform: translate(1px, 2px) rotate(0deg); }
-    100% { transform: translate(1px, -2px) rotate(-1deg); }
-  }
+}
+
+@keyframes shake {
+    0% {
+        transform: translate(1px, 1px) rotate(0deg);
+    }
+    10% {
+        transform: translate(-1px, -2px) rotate(-1deg);
+    }
+    20% {
+        transform: translate(-3px, 0px) rotate(1deg);
+    }
+    30% {
+        transform: translate(3px, 2px) rotate(0deg);
+    }
+    40% {
+        transform: translate(1px, -1px) rotate(1deg);
+    }
+    50% {
+        transform: translate(-1px, 2px) rotate(-1deg);
+    }
+    60% {
+        transform: translate(-3px, 1px) rotate(0deg);
+    }
+    70% {
+        transform: translate(3px, 1px) rotate(-1deg);
+    }
+    80% {
+        transform: translate(-1px, -1px) rotate(1deg);
+    }
+    90% {
+        transform: translate(1px, 2px) rotate(0deg);
+    }
+    100% {
+        transform: translate(1px, -2px) rotate(-1deg);
+    }
+}
