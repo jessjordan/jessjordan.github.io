@@ -1,0 +1,11 @@
+.nav-link {
+    color: rgb(233, 133, 67);
+    font-size: larger;
+    outline-style: dotted;
+    outline-color: rgb(75, 68, 68);
+  
+  }
+  
+  #navbar {
+      background-color: darkgray;
+  }
